@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>06_HTML_Tables</title>
+        <style>
+            table{
+                border-collapse: collapse;
+                width: 100%;
+            }
+            td, th{
+                padding: 8px;
+                border: 1px solid black;
+            }
+            th{
+                background-color: lightgray;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>HTML Tables</h1>
+        <h2>Basic Table Structure</h2>
+        <table>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+            </tr>
+            <tr>
+                <td>Table Cell 1</td>
+                <td>Table Cell 2</td>
+            </tr>
+            <tr>
+                <td>Table Cell 3</td>
+                <td>Table Cell 4</td>
+            </tr>
+        </table>
+
+        <h2>Table Headers</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>johndoe@example.com</td>
+                <td>12345678</td>
+            </tr>
+            <tr>
+                <td>Jame Doe</td>
+                <td>jamedoe@example.com</td>
+                <td>87654321</td>
+            </tr>
+        </table>
+
+        <h2>Column Spans</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td colspan="2">john@example.com</td>
+            </tr>
+            <tr>
+                <td>Jame Doe</td>
+                <td colspan="2">jame@example.com</td>
+            </tr>
+        </table>
+
+    </body>
+</html>
