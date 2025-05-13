@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>07_HTML_Forms</title>
+        <style>
+            input, select, textarea{
+                display: block;
+
+            }
+        </style>
+    </head>
+    <body>
+        <h1>HTML Post Form</h1>
+        <form method="POST">
+            <div>
+                <!--Text Input-->
+                <label for="TextInput">Text Input</label>
+                <input type="text" name="TextInput" id="TextInput" required maxlength="20">
+            </div>
+            <div>
+                <!--Password Input-->
+                <label for="PasswordInput">Password Input</label>
+                <input type="password" name="PasswordInput" id="PasswordInput">
+            </div>
+            <div>
+                <!--Email Input-->
+                <label for="EmailInput">Email Input</label>
+                <input type="email" name="EmailInput" id="EmailInput">
+            </div>
+            <div>
+                <!--Number Input-->
+                <label for="NumberInput">Number Input</label>
+                <input type="number" name="NumberInput" id="NumberInput" min="1" max="10">
+            </div>
+            <div>
+                <!--Checkbox Input-->
+                <label for="CheckboxInput">Checkbox Input</label>
+                <input type="checkbox" name="CheckboxInput" id="CheckboxInput">
+            </div>
+            <div>
+                <!--Radio Buttons Input-->
+                <label for="RadioInput1">Radio Input 1</label>
+                <input type="radio" name="RadioInput" id="RadioInput1" checked>
+                <label for="RadioInput2">Radio Input 2</label>
+                <input type="radio" name="RadioInput" id="RadioInput2">
+            </div>
+            <div>
+                <label for="SelectInput1">Select Input 1</label>
+                <select name="SelectInput1" id="SelectInput1">
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                </select>
+            </div>
+            <div>
+                <label for="SelectInput2">Select Input 2</label>
+                <select name="SelectInput2" id="SelectInput2" multiple>
+                    <option value="option1" selected>Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                </select>
+            </div>
+            <div>
+                <!--File Input-->
+                <label for="FileInput">File Input</label>
+               <input type="file" name="FileInput" id="FileInput">
+            </div>
+            <div>
+                <!--Date Input-->
+                <label for="DateInput">Date Input</label>
+                <input type="date" name="DateInput" id="DateInput">
+            </div>
+            <div>
+                <!--Time Input-->
+                <label for="TimeInput"><Time></Time> Input</label>
+                <input type="time" name="TimeInput" id="TimeInput">
+            </div>
+            <div>
+                <!--Text Area Input-->
+                <label for="TextArea">Text Area</label>
+                <textarea name="TextArea" id="TextArea"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+
+
+        </form>
+    </body>
+</html>
